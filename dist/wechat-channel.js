@@ -24460,25 +24460,25 @@ async function main() {
   });
   await mcp.connect(new StdioServerTransport);
   log("MCP \u8FDE\u63A5\u5C31\u7EEA");
-  const creds = loadCredentials();
-  if (!creds) {
-    logError("\u672A\u627E\u5230\u51ED\u636E\u3002\u8BF7\u5148\u8FD0\u884C: cd ~/.claude/channels/wechat && bun setup.ts");
-    process.exit(1);
-  }
-  account = creds;
-  log(`\u8D26\u53F7: ${creds.accountId}`);
-  const list = loadAllowlist();
-  if (list.allowed.length === 0 && !list.auto_allow_next) {
-    log("\u26A0\uFE0F  allowlist \u4E3A\u7A7A\u3002\u8FD0\u884C bun setup.ts --allow-all \u6216 --allow <ID> \u6DFB\u52A0\u6388\u6743\u7528\u6237");
-  } else {
-    for (const entry of list.allowed) {
-      log(`  \u5141\u8BB8: ${entry.nickname} (${entry.id})`);
-    }
-  }
-  await new Promise((r) => setTimeout(r, 2000));
-  await replayHistory(mcp);
-  startHeartbeat(mcp);
-  await startPolling(creds);
+//   const creds = loadCredentials();
+//   if (!creds) {
+  //     logError("\u672A\u627E\u5230\u51ED\u636E\u3002\u8BF7\u5148\u8FD0\u884C: cd ~/.claude/channels/wechat && bun setup.ts");
+//     process.exit(1);
+//   }
+//   account = creds;
+//   log(`\u8D26\u53F7: ${creds.accountId}`);
+//   const list = loadAllowlist();
+//   if (list.allowed.length === 0 && !list.auto_allow_next) {
+//     log("\u26A0\uFE0F  allowlist \u4E3A\u7A7A\u3002\u8FD0\u884C bun setup.ts --allow-all \u6216 --allow <ID> \u6DFB\u52A0\u6388\u6743\u7528\u6237");
+//   } else {
+//     for (const entry of list.allowed) {
+//       log(`  \u5141\u8BB8: ${entry.nickname} (${entry.id})`);
+//     }
+//   }
+//   await new Promise((r) => setTimeout(r, 2000));
+//   await replayHistory(mcp);
+//   startHeartbeat(mcp);
+//   await startPolling(creds);
 }
 main().catch((err) => {
   logError(`Fatal: ${String(err)}`);

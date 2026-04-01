@@ -1,0 +1,50 @@
+[2026-04-01] [IN_PROGRESS] 阅读代码: 分析项目结构
+[2026-04-01] [COMPLETED] 阅读代码: 项目类型为Node.js MCP服务端项目，支持stdio协议，内容合规
+bash: line 1: bun: command not found
+
+added 96 packages, and audited 97 packages in 10s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+2026-04-01 07:18:38,450 - INFO - 🚀 启动MCP服务器: node data/25826/dist/wechat-channel.js
+2026-04-01 07:18:40,458 - ERROR - ❌ 服务器启动失败: [wechat] MCP 连接就绪
+[wechat] ERROR: 未找到凭据。请先运行: cd ~/.claude/channels/wechat && bun setup.ts
+
+2026-04-01 07:18:40,458 - ERROR - ❌ 清理资源时发生错误: 
+
+🔄 开始测试...
+
+❌ 测试失败！请检查服务器配置和构建
+2026-04-01 07:20:40,911 - INFO - 🚀 启动MCP服务器: node data/25826/dist/wechat-channel.js
+2026-04-01 07:20:42,916 - INFO - ✅ MCP服务器启动成功
+2026-04-01 07:20:42,916 - INFO - 📤 发送请求: initialize
+2026-04-01 07:20:42,928 - INFO - 📥 收到响应: 1
+2026-04-01 07:20:42,928 - INFO - ✅ 初始化成功
+2026-04-01 07:20:42,928 - INFO - 📤 发送请求: tools/list
+2026-04-01 07:20:42,930 - INFO - 📥 收到响应: 2
+2026-04-01 07:20:42,930 - INFO - 🛠️  成功获取到 4 个工具:
+2026-04-01 07:20:42,930 - INFO -    1. wechat_reply
+2026-04-01 07:20:42,930 - INFO -       描述: 发送文本回复到微信用户
+2026-04-01 07:20:42,930 - INFO -       参数: ['sender_id', 'text']
+2026-04-01 07:20:42,930 - INFO - 
+2026-04-01 07:20:42,930 - INFO -    2. wechat_send_file
+2026-04-01 07:20:42,930 - INFO -       描述: 发送文件、图片或视频到微信。支持本地路径和 HTTPS URL（URL 会自动下载后发送，不需要先手动下载）。
+2026-04-01 07:20:42,930 - INFO -       参数: ['sender_id', 'file_path_or_url']
+2026-04-01 07:20:42,930 - INFO - 
+2026-04-01 07:20:42,930 - INFO -    3. wechat_send_voice
+2026-04-01 07:20:42,930 - INFO -       描述: 通过 TTS 合成语音并以 mp3 文件发送到微信。需要自备 TTS 脚本。
+2026-04-01 07:20:42,930 - INFO -       参数: ['sender_id', 'text']
+2026-04-01 07:20:42,930 - INFO - 
+2026-04-01 07:20:42,930 - INFO -    4. wechat_reload_heartbeat
+2026-04-01 07:20:42,930 - INFO -       描述: 重新加载 heartbeat 配置并重新生成今日时间表。用于手动触发配置更新。
+2026-04-01 07:20:42,930 - INFO -       参数: []
+2026-04-01 07:20:42,930 - INFO - 
+2026-04-01 07:20:42,930 - INFO - 🎉 所有测试通过！
+2026-04-01 07:20:42,936 - INFO - 🧹 服务器进程已清理
+
+🔄 开始测试...
+
+✅ 测试成功！MCP服务器可以正常调用list_tools
+[2026-04-01] [COMPLETED] 本地测试: 成功获取到4个工具，测试通过
