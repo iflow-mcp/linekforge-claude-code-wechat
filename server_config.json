@@ -1,0 +1,1 @@
+{"serverConfig": "{\"mcpServers\":{\"wechat\":{\"command\":\"npx\",\"args\":[\"-y\",\"@iflow-mcp/linekforge-claude-code-wechat-server\"],\"values\":{}}}}"}

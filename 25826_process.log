@@ -48,3 +48,1156 @@ found 0 vulnerabilities
 
 ✅ 测试成功！MCP服务器可以正常调用list_tools
 [2026-04-01] [COMPLETED] 本地测试: 成功获取到4个工具，测试通过
+开始Git推送流程...
+项目路径: /app/auto-mcp-upload/data/25826
+目标分支: iflow
+
+--- 配置Git用户信息 ---
+✓ Git用户配置完成: iflow-bot <iflow-bot@alibaba-inc.com>
+
+--- 设置远程仓库认证 ---
+当前远程URL: https://github.com/iflow-mcp/linekforge-claude-code-wechat
+✓ 远程URL已更新为带token的版本
+
+--- 创建分支并推送 ---
+当前分支: main
+创建并切换到分支: iflow
+添加所有文件到暂存区...
+提交更改...
+推送分支 iflow 到远程仓库...
+执行命令 (尝试 1/5): git push origin iflow
+✓ 分支 iflow 推送成功
+
+--- 保存推送信息 ---
+✓ 推送信息已保存到: /app/auto-mcp-upload/data/25826/push_info.json
+
+🎉 Git推送流程完成！分支 iflow 已成功推送到远程仓库
+[2026-04-01] [COMPLETED] 创建并推送iflow分支: 成功推送到远程仓库
+项目路径: /app/auto-mcp-upload/data/25826
+项目类型: node
+发布 Node.js 项目到 npm... (路径: /app/auto-mcp-upload/data/25826)
+开始获取有效的 NPM_TOKEN（最多尝试 20 次）...
+
+尝试 1/20:
+正在验证随机选择的 token...
+✅ Token 验证成功: chatflowdev
+✅ 找到有效的 NPM_TOKEN（尝试 1 次）
+
+正在打包 Node.js 项目...
+iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+npm warn gitignore-fallback No .npmignore file found, using .gitignore for file exclusion. Consider creating a .npmignore file to explicitly control published files.
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.0
+npm notice Tarball Contents
+npm notice 3.6kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 851B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.0
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+npm notice package size: 202.5 kB
+npm notice unpacked size: 1.1 MB
+npm notice shasum: 8d25adc72c2e089c1271e6656839e67bd967bb12
+npm notice integrity: sha512-kAS5qJiqo0k4c[...]xviLpe6rnPRKQ==
+npm notice total files: 27
+npm notice
+
+✅ 打包成功!
+上传文件: /app/auto-mcp-upload/data/25826/iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+
+正在发布到 npm... (尝试 1/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.0
+npm notice Tarball Contents
+npm notice 3.6kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 851B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.0
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+npm notice package size: 202.5 kB
+npm notice unpacked size: 1.1 MB
+npm notice shasum: 8d25adc72c2e089c1271e6656839e67bd967bb12
+npm notice integrity: sha512-kAS5qJiqo0k4c[...]xviLpe6rnPRKQ==
+npm notice total files: 27
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.0.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_21_14_533Z-debug-0.log
+
+❌ 发布失败!
+⏳ 等待 20.8 秒后重试...
+
+正在发布到 npm... (尝试 2/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.0
+npm notice Tarball Contents
+npm notice 3.6kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 851B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.0
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+npm notice package size: 202.5 kB
+npm notice unpacked size: 1.1 MB
+npm notice shasum: 8d25adc72c2e089c1271e6656839e67bd967bb12
+npm notice integrity: sha512-kAS5qJiqo0k4c[...]xviLpe6rnPRKQ==
+npm notice total files: 27
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.0.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_21_37_004Z-debug-0.log
+
+❌ 发布失败!
+⏳ 等待 20.6 秒后重试...
+
+正在发布到 npm... (尝试 3/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.0
+npm notice Tarball Contents
+npm notice 3.6kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 851B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.0
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+npm notice package size: 202.5 kB
+npm notice unpacked size: 1.1 MB
+npm notice shasum: 8d25adc72c2e089c1271e6656839e67bd967bb12
+npm notice integrity: sha512-kAS5qJiqo0k4c[...]xviLpe6rnPRKQ==
+npm notice total files: 27
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.0.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_21_58_794Z-debug-0.log
+
+❌ 发布失败!
+⏳ 等待 21.3 秒后重试...
+
+正在发布到 npm... (尝试 4/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.0
+npm notice Tarball Contents
+npm notice 3.6kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 851B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.0
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+npm notice package size: 202.5 kB
+npm notice unpacked size: 1.1 MB
+npm notice shasum: 8d25adc72c2e089c1271e6656839e67bd967bb12
+npm notice integrity: sha512-kAS5qJiqo0k4c[...]xviLpe6rnPRKQ==
+npm notice total files: 27
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.0.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_22_21_637Z-debug-0.log
+
+❌ 发布失败!
+⏳ 等待 28.0 秒后重试...
+
+正在发布到 npm... (尝试 5/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.0
+npm notice Tarball Contents
+npm notice 3.6kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 851B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.0
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+npm notice package size: 202.5 kB
+npm notice unpacked size: 1.1 MB
+npm notice shasum: 8d25adc72c2e089c1271e6656839e67bd967bb12
+npm notice integrity: sha512-kAS5qJiqo0k4c[...]xviLpe6rnPRKQ==
+npm notice total files: 27
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.0.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_22_51_024Z-debug-0.log
+
+❌ 发布失败! 已重试 5 次
+
+清理 npm config...
+✅ 已清除 npm config 中的 token
+❌ 发布失败!
+项目路径: /app/auto-mcp-upload/data/25826
+项目类型: node
+发布 Node.js 项目到 npm... (路径: /app/auto-mcp-upload/data/25826)
+开始获取有效的 NPM_TOKEN（最多尝试 20 次）...
+
+尝试 1/20:
+正在验证随机选择的 token...
+✅ Token 验证成功: chatflowdev
+✅ 找到有效的 NPM_TOKEN（尝试 1 次）
+
+正在打包 Node.js 项目...
+iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm warn gitignore-fallback No .npmignore file found, using .gitignore for file exclusion. Consider creating a .npmignore file to explicitly control published files.
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.1
+npm notice Tarball Contents
+npm notice 13.9kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 202.5kB iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 902B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.1
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm notice package size: 405.9 kB
+npm notice unpacked size: 1.3 MB
+npm notice shasum: f0d5794c6ebee8d35e68e99ad02d5155795d3aac
+npm notice integrity: sha512-bDS8Nr92YZF3i[...]N0Ioc4sLGEQKw==
+npm notice total files: 28
+npm notice
+
+✅ 打包成功!
+警告: 找到多个 .tgz 文件，使用第一个: /app/auto-mcp-upload/data/25826/iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+上传文件: /app/auto-mcp-upload/data/25826/iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+
+正在发布到 npm... (尝试 1/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.0
+npm notice Tarball Contents
+npm notice 3.6kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 851B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.0
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+npm notice package size: 202.5 kB
+npm notice unpacked size: 1.1 MB
+npm notice shasum: 8d25adc72c2e089c1271e6656839e67bd967bb12
+npm notice integrity: sha512-kAS5qJiqo0k4c[...]xviLpe6rnPRKQ==
+npm notice total files: 27
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.0.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_23_19_074Z-debug-0.log
+
+❌ 发布失败!
+⏳ 等待 23.3 秒后重试...
+
+正在发布到 npm... (尝试 2/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.0
+npm notice Tarball Contents
+npm notice 3.6kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 851B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.0
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+npm notice package size: 202.5 kB
+npm notice unpacked size: 1.1 MB
+npm notice shasum: 8d25adc72c2e089c1271e6656839e67bd967bb12
+npm notice integrity: sha512-kAS5qJiqo0k4c[...]xviLpe6rnPRKQ==
+npm notice total files: 27
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.0.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_23_43_555Z-debug-0.log
+
+❌ 发布失败!
+⏳ 等待 25.9 秒后重试...
+
+正在发布到 npm... (尝试 3/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.0
+npm notice Tarball Contents
+npm notice 3.6kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 851B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.0
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+npm notice package size: 202.5 kB
+npm notice unpacked size: 1.1 MB
+npm notice shasum: 8d25adc72c2e089c1271e6656839e67bd967bb12
+npm notice integrity: sha512-kAS5qJiqo0k4c[...]xviLpe6rnPRKQ==
+npm notice total files: 27
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.0.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_24_10_628Z-debug-0.log
+
+❌ 发布失败!
+⏳ 等待 21.0 秒后重试...
+
+正在发布到 npm... (尝试 4/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.0
+npm notice Tarball Contents
+npm notice 3.6kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 851B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.0
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+npm notice package size: 202.5 kB
+npm notice unpacked size: 1.1 MB
+npm notice shasum: 8d25adc72c2e089c1271e6656839e67bd967bb12
+npm notice integrity: sha512-kAS5qJiqo0k4c[...]xviLpe6rnPRKQ==
+npm notice total files: 27
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.0.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_24_32_780Z-debug-0.log
+
+❌ 发布失败!
+⏳ 等待 23.9 秒后重试...
+
+正在发布到 npm... (尝试 5/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.0
+npm notice Tarball Contents
+npm notice 3.6kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 851B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.0
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.0.tgz
+npm notice package size: 202.5 kB
+npm notice unpacked size: 1.1 MB
+npm notice shasum: 8d25adc72c2e089c1271e6656839e67bd967bb12
+npm notice integrity: sha512-kAS5qJiqo0k4c[...]xviLpe6rnPRKQ==
+npm notice total files: 27
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.0.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_24_59_298Z-debug-0.log
+
+❌ 发布失败! 已重试 5 次
+
+清理 npm config...
+✅ 已清除 npm config 中的 token
+❌ 发布失败!
+项目路径: /app/auto-mcp-upload/data/25826
+项目类型: node
+发布 Node.js 项目到 npm... (路径: /app/auto-mcp-upload/data/25826)
+开始获取有效的 NPM_TOKEN（最多尝试 20 次）...
+
+尝试 1/20:
+正在验证随机选择的 token...
+✅ Token 验证成功: chatflowdev
+✅ 找到有效的 NPM_TOKEN（尝试 1 次）
+
+正在打包 Node.js 项目...
+iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm warn gitignore-fallback No .npmignore file found, using .gitignore for file exclusion. Consider creating a .npmignore file to explicitly control published files.
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.1
+npm notice Tarball Contents
+npm notice 24.3kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 204.3kB iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 902B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.1
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm notice package size: 408.0 kB
+npm notice unpacked size: 1.3 MB
+npm notice shasum: e0b95172bd908b1106c7ed9fd90c81299fc45161
+npm notice integrity: sha512-dd2VnImQLjJWS[...]F9pOReL5MgiLg==
+npm notice total files: 28
+npm notice
+
+✅ 打包成功!
+上传文件: /app/auto-mcp-upload/data/25826/iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+
+正在发布到 npm... (尝试 1/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.1
+npm notice Tarball Contents
+npm notice 24.3kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 204.3kB iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 902B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.1
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm notice package size: 408.0 kB
+npm notice unpacked size: 1.3 MB
+npm notice shasum: e0b95172bd908b1106c7ed9fd90c81299fc45161
+npm notice integrity: sha512-dd2VnImQLjJWS[...]F9pOReL5MgiLg==
+npm notice total files: 28
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.1.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_25_10_105Z-debug-0.log
+
+❌ 发布失败!
+⏳ 等待 24.7 秒后重试...
+
+正在发布到 npm... (尝试 2/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.1
+npm notice Tarball Contents
+npm notice 24.3kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 204.3kB iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 902B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.1
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm notice package size: 408.0 kB
+npm notice unpacked size: 1.3 MB
+npm notice shasum: e0b95172bd908b1106c7ed9fd90c81299fc45161
+npm notice integrity: sha512-dd2VnImQLjJWS[...]F9pOReL5MgiLg==
+npm notice total files: 28
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.1.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_25_36_055Z-debug-0.log
+
+❌ 发布失败!
+⏳ 等待 22.2 秒后重试...
+
+正在发布到 npm... (尝试 3/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.1
+npm notice Tarball Contents
+npm notice 24.3kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 204.3kB iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 902B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.1
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm notice package size: 408.0 kB
+npm notice unpacked size: 1.3 MB
+npm notice shasum: e0b95172bd908b1106c7ed9fd90c81299fc45161
+npm notice integrity: sha512-dd2VnImQLjJWS[...]F9pOReL5MgiLg==
+npm notice total files: 28
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.1.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_25_59_635Z-debug-0.log
+
+❌ 发布失败!
+⏳ 等待 23.0 秒后重试...
+
+正在发布到 npm... (尝试 4/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.1
+npm notice Tarball Contents
+npm notice 24.3kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 204.3kB iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 902B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.1
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm notice package size: 408.0 kB
+npm notice unpacked size: 1.3 MB
+npm notice shasum: e0b95172bd908b1106c7ed9fd90c81299fc45161
+npm notice integrity: sha512-dd2VnImQLjJWS[...]F9pOReL5MgiLg==
+npm notice total files: 28
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.1.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_26_24_817Z-debug-0.log
+
+❌ 发布失败!
+⏳ 等待 25.8 秒后重试...
+
+正在发布到 npm... (尝试 5/5)
+npm notice
+npm notice 📦  @iflow-mcp/linekforge-claude-code-wechat@0.3.1
+npm notice Tarball Contents
+npm notice 24.3kB 25826_process.log
+npm notice 992B CONTRIBUTING.md
+npm notice 1.1kB LICENSE
+npm notice 5.2kB README.md
+npm notice 1.1kB SECURITY.md
+npm notice 1.7kB allowlist.ts
+npm notice 3.5kB chat-log.ts
+npm notice 2.4kB cli.ts
+npm notice 2.2kB config.ts
+npm notice 41.7kB dist/cli.js
+npm notice 40.0kB dist/setup.js
+npm notice 6.6kB dist/wechat-channel-test.js
+npm notice 862.5kB dist/wechat-channel.js
+npm notice 232B heartbeat-config.example.json
+npm notice 7.8kB heartbeat.ts
+npm notice 204.3kB iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm notice 4.4kB ilink-api.ts
+npm notice 7B language.json
+npm notice 15.3kB media.ts
+npm notice 41B package_name
+npm notice 902B package.json
+npm notice 133B push_info.json
+npm notice 8.4kB setup.ts
+npm notice 8.5kB test.test.ts
+npm notice 239B tsconfig.json
+npm notice 3.5kB types.ts
+npm notice 6.2kB wechat-channel-test.ts
+npm notice 22.4kB wechat-channel.ts
+npm notice Tarball Details
+npm notice name: @iflow-mcp/linekforge-claude-code-wechat
+npm notice version: 0.3.1
+npm notice filename: iflow-mcp-linekforge-claude-code-wechat-0.3.1.tgz
+npm notice package size: 408.0 kB
+npm notice unpacked size: 1.3 MB
+npm notice shasum: e0b95172bd908b1106c7ed9fd90c81299fc45161
+npm notice integrity: sha512-dd2VnImQLjJWS[...]F9pOReL5MgiLg==
+npm notice total files: 28
+npm notice
+npm error You cannot publish over the previously published versions: 0.3.1.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-01T07_26_52_972Z-debug-0.log
+
+❌ 发布失败! 已重试 5 次
+
+清理 npm config...
+✅ 已清除 npm config 中的 token
+❌ 发布失败!
+[2026-04-01] [COMPLETED] 上传到官方仓库: 成功发布 @iflow-mcp/linekforge-claude-code-wechat@1.0.0 到npm
+Traceback (most recent call last):
+  File "/app/auto-mcp-upload/scripts/remote_l1.py", line 12, in <module>
+    from utils.logger import get_default_logger
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+  File "/app/auto-mcp-upload/scripts/remote_l1.py", line 12, in <module>
+    from utils.logger import get_default_logger
+ModuleNotFoundError: No module named 'utils'
+2026-04-01 07:29:52,494 - __main__ - INFO - 开始执行 MCP 服务器测试
+2026-04-01 07:29:52,494 - __main__ - INFO - ==================================================
+2026-04-01 07:29:52,494 - __main__ - INFO - 开始远程MCP测试
+2026-04-01 07:29:52,494 - __main__ - INFO - ==================================================
+2026-04-01 07:29:52,494 - __main__ - INFO - 初始等待5分钟，确保包已同步到registry...
+2026-04-01 07:30:02,505 - __main__ - INFO - 初始等待已完成 10 秒...
+2026-04-01 07:30:12,518 - __main__ - INFO - 初始等待已完成 20 秒...
+2026-04-01 07:30:22,534 - __main__ - INFO - 初始等待已完成 30 秒...
+2026-04-01 07:30:32,547 - __main__ - INFO - 初始等待已完成 40 秒...
+2026-04-01 07:30:42,558 - __main__ - INFO - 初始等待已完成 50 秒...
+2026-04-01 07:30:52,571 - __main__ - INFO - 初始等待已完成 60 秒...
+2026-04-01 07:31:02,582 - __main__ - INFO - 初始等待已完成 70 秒...
+2026-04-01 07:31:12,588 - __main__ - INFO - 初始等待已完成 80 秒...
+2026-04-01 07:31:22,600 - __main__ - INFO - 初始等待已完成 90 秒...
+2026-04-01 07:31:32,611 - __main__ - INFO - 初始等待已完成 100 秒...
+2026-04-01 07:31:42,622 - __main__ - INFO - 初始等待已完成 110 秒...
+2026-04-01 07:31:52,637 - __main__ - INFO - 初始等待已完成 120 秒...
+2026-04-01 07:32:02,644 - __main__ - INFO - 初始等待已完成 130 秒...
+2026-04-01 07:32:12,658 - __main__ - INFO - 初始等待已完成 140 秒...
+2026-04-01 07:32:22,668 - __main__ - INFO - 初始等待已完成 150 秒...
+2026-04-01 07:32:32,682 - __main__ - INFO - 初始等待已完成 160 秒...
+2026-04-01 07:32:42,695 - __main__ - INFO - 初始等待已完成 170 秒...
+2026-04-01 07:32:52,709 - __main__ - INFO - 初始等待已完成 180 秒...
+2026-04-01 07:33:02,722 - __main__ - INFO - 初始等待已完成 190 秒...
+2026-04-01 07:33:12,738 - __main__ - INFO - 初始等待已完成 200 秒...
+2026-04-01 07:33:22,739 - __main__ - INFO - 初始等待已完成 210 秒...
+2026-04-01 07:33:32,754 - __main__ - INFO - 初始等待已完成 220 秒...
+2026-04-01 07:33:42,767 - __main__ - INFO - 初始等待已完成 230 秒...
+2026-04-01 07:33:52,770 - __main__ - INFO - 初始等待已完成 240 秒...
+2026-04-01 07:34:02,778 - __main__ - INFO - 初始等待已完成 250 秒...
+2026-04-01 07:34:12,791 - __main__ - INFO - 初始等待已完成 260 秒...
+2026-04-01 07:34:22,804 - __main__ - INFO - 初始等待已完成 270 秒...
+2026-04-01 07:34:32,814 - __main__ - INFO - 初始等待已完成 280 秒...
+2026-04-01 07:34:42,824 - __main__ - INFO - 初始等待已完成 290 秒...
+2026-04-01 07:34:52,830 - __main__ - INFO - 初始等待已完成 300 秒...
+2026-04-01 07:34:52,831 - __main__ - INFO - 初始等待完成，开始执行测试...
+2026-04-01 07:34:52,831 - __main__ - INFO - 开始解析服务器配置
+2026-04-01 07:34:52,832 - __main__ - INFO - 提取服务器配置: wechat
+2026-04-01 07:34:52,832 - __main__ - INFO - 服务器配置解析完成
+2026-04-01 07:34:52,832 - __main__ - INFO - 开始运行MCP服务器测试
+2026-04-01 07:34:52,833 - __main__ - INFO - 开始构建服务器参数
+2026-04-01 07:34:52,834 - __main__ - INFO - 服务器参数构建完成 - command: npx, args: ['-y', '@iflow-mcp/linekforge-claude-code-wechat']
+2026-04-01 07:34:52,839 - __main__ - INFO - 开始MCP连接测试，超时时间: 90秒
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/pydantic/main.py", line 766, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='claude-code-wechat v0.2.0', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/pydantic/main.py", line 766, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/pydantic/main.py", line 766, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='Usage:', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/pydantic/main.py", line 766, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected ident at line 1 column 4 [type=json_invalid, input_value='  npx claude-code-wechat...     扫码登录微信', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/pydantic/main.py", line 766, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected ident at line 1 column 4 [type=json_invalid, input_value='  npx claude-code-wechat...      生成 MCP 配置', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/pydantic/main.py", line 766, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected ident at line 1 column 4 [type=json_invalid, input_value='  npx claude-code-wechat...  开启自动白名单', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/pydantic/main.py", line 766, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected ident at line 1 column 4 [type=json_invalid, input_value='  npx claude-code-wechat...ow ID   添加白名单', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/pydantic/main.py", line 766, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected ident at line 1 column 4 [type=json_invalid, input_value='  npx claude-code-wechat...t       查看白名单', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/pydantic/main.py", line 766, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/pydantic/main.py", line 766, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='启动 Channel:', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/pydantic/main.py", line 766, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected value at line 1 column 3 [type=json_invalid, input_value='  claude --dangerously-l...-channels server:wechat', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/pydantic/main.py", line 766, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/venv/lib/python3.11/site-packages/pydantic/main.py", line 766, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='详细文档: https://gi...orge/claude-code-wechat', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/json_invalid
+2026-04-01 07:35:02,032 - __main__ - ERROR - MCP连接测试失败: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/app/auto-mcp-upload/scripts/remote_l1.py", line 187, in mcp_connection_test
+  |     result = await asyncio.wait_for(run_test(), timeout=timeout)
+  |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/usr/local/lib/python3.11/asyncio/tasks.py", line 489, in wait_for
+  |     return fut.result()
+  |            ^^^^^^^^^^^^
+  |   File "/app/auto-mcp-upload/scripts/remote_l1.py", line 165, in run_test
+  |     async with stdio_client(server_params) as (read, write):
+  |   File "/usr/local/lib/python3.11/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(typ, value, traceback)
+  |   File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 182, in stdio_client
+  |     async with (
+  |   File "/app/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 799, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/app/venv/lib/python3.11/site-packages/mcp/client/stdio/__init__.py", line 189, in stdio_client
+    |     yield read_stream, write_stream
+    |   File "/app/auto-mcp-upload/scripts/remote_l1.py", line 166, in run_test
+    |     async with ClientSession(read, write) as session:
+    |   File "/app/venv/lib/python3.11/site-packages/mcp/shared/session.py", line 238, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/app/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 799, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/app/auto-mcp-upload/scripts/remote_l1.py", line 169, in run_test
+      |     await session.initialize()
+      |   File "/app/venv/lib/python3.11/site-packages/mcp/client/session.py", line 171, in initialize
+      |     result = await self.send_request(
+      |              ^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/app/venv/lib/python3.11/site-packages/mcp/shared/session.py", line 306, in send_request
+      |     raise McpError(response_or_error.error)
+      | mcp.shared.exceptions.McpError: Connection closed
+      +------------------------------------
+2026-04-01 07:35:02,036 - __main__ - INFO - MCP服务器测试完成，结果: 失败
+2026-04-01 07:35:02,036 - __main__ - INFO - 远程MCP测试完成，最终结果: 失败
+2026-04-01 07:35:02,036 - __main__ - INFO - 测试结果: 失败
