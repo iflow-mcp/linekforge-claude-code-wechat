@@ -1201,3 +1201,4 @@ pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMess
 2026-04-01 07:35:02,036 - __main__ - INFO - MCP服务器测试完成，结果: 失败
 2026-04-01 07:35:02,036 - __main__ - INFO - 远程MCP测试完成，最终结果: 失败
 2026-04-01 07:35:02,036 - __main__ - INFO - 测试结果: 失败
+[2026-04-01] [IN_PROGRESS] 生成ServerConfig并进行L1测试: 重新发布1.0.1版本，等待同步
